@@ -1,0 +1,51 @@
+html {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+    background-color: #DEF5FC;
+    max-width: 100%;
+}
+    
+body{
+   margin: 0;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+svg {
+  width: 100vw;
+  height: 100vh;
+}
+  
+.line {
+  fill: none;
+  stroke-width: 3;
+}
+  
+.area {
+  fill: #FDB813;
+  stroke: #FF5721;
+  stroke-width: .015em;
+  clip-path: url(#clip);
+}
+    
+.zoom {
+  /* cursor: move; */
+  fill: none;
+  pointer-events: all;
+}
+
+text{
+  fill: #000;
+}
+
+button{
+  margin-top: -5em;
+  stroke: #999faa;
+  stroke-width: 2px;
+  float: left;
+  height: 2em;
+  width: 5em;
+
+}
